@@ -4,7 +4,7 @@ require(ggplot2)
 require(scales)
 require(grid)
 
-# reading data
+# reading data from external file
 dev <- read.csv("~/data_stackoverflow_2015_.csv")
 irDev <- filter(dev, Country == 'Iran')
 
